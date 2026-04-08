@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://saiful-mahmood.github.io/10xmyops/",
+  "homepage": "https://10xmyops.com",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
