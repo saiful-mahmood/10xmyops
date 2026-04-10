@@ -19,30 +19,29 @@ export default function Hero() {
                 <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[var(--color-cyan)] to-[var(--color-blue)] flex items-center justify-center">
                   <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="#0b0d1a" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
                 </div>
-                <span className="text-sm font-medium text-[var(--color-text-primary)]">AI-Powered Automation</span>
+                <span className="text-sm font-medium text-[var(--color-text-primary)]">Built for the Trades</span>
               </div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[var(--color-amber)]/10 border border-[var(--color-amber)]/20">
-                <span className="text-sm font-medium text-[var(--color-amber)]">Trusted by 50+ Growing Businesses</span>
+                <span className="text-sm font-medium text-[var(--color-amber)]">Trusted by 50+ Top HVAC Companies</span>
               </div>
             </div>
 
             <h1 className="text-4xl sm:text-5xl lg:text-6xl font-extrabold font-[family-name:var(--font-heading)] leading-[1.1] mb-6">
-              Operational Efficiency{' '}
+              AI-Powered Operations{' '}
               <span className="gradient-text">
-                for Growing Businesses
+                for HVAC Businesses
               </span>
             </h1>
 
             <p className="text-lg text-[var(--color-text-secondary)] mb-8 max-w-xl leading-relaxed">
-              Fully automated operational systems that eliminate bottlenecks, reduce overhead, and deliver{' '}
-              <strong className="text-[var(--color-text-primary)]">consistent, measurable results</strong>.
+              Fully automated systems that eliminate dispatch errors, accelerate estimates, and lock in maintenance agreements—so you can scale without hiring more office staff.
             </p>
 
             <a
               href="#cta"
               className="inline-flex items-center gap-2 px-8 py-4 rounded-full btn-gradient text-[var(--color-dark-bg)] font-bold text-base"
             >
-              Get Started
+              Get Your Free Assessment
               <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"><path d="M5 12h14M12 5l7 7-7 7"/></svg>
             </a>
           </div>
@@ -60,13 +59,13 @@ export default function Hero() {
               {/* Top metric */}
               <div className="flex items-center justify-between mb-4 p-4 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)]">
                 <div>
-                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Operational Efficiency</p>
-                  <p className="text-3xl font-extrabold font-[family-name:var(--font-heading)] gradient-text">96%</p>
+                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Dispatch Efficiency</p>
+                  <p className="text-3xl font-extrabold font-[family-name:var(--font-heading)] gradient-text">98%</p>
                 </div>
                 <div className="w-16 h-16 relative">
                   <svg className="w-16 h-16 -rotate-90" viewBox="0 0 64 64">
                     <circle cx="32" cy="32" r="28" fill="none" stroke="var(--color-dark-border)" strokeWidth="4"/>
-                    <circle cx="32" cy="32" r="28" fill="none" stroke="url(#progressGrad)" strokeWidth="4" strokeLinecap="round" strokeDasharray="175.9" strokeDashoffset="7"/>
+                    <circle cx="32" cy="32" r="28" fill="none" stroke="url(#progressGrad)" strokeWidth="4" strokeLinecap="round" strokeDasharray="175.9" strokeDashoffset="4"/>
                     <defs>
                       <linearGradient id="progressGrad" x1="0%" y1="0%" x2="100%" y2="0%">
                         <stop offset="0%" stopColor="#22d3ee"/>
@@ -80,20 +79,20 @@ export default function Hero() {
               {/* Metric grid */}
               <div className="grid grid-cols-2 gap-3">
                 <div className="p-3 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)] group hover:border-[var(--color-cyan)]/30 transition-all">
-                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Monthly Savings</p>
-                  <p className="text-xl font-bold text-emerald-400">$8,500</p>
+                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Monthly Cost Saved</p>
+                  <p className="text-xl font-bold text-emerald-400">$12,400</p>
                 </div>
                 <div className="p-3 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)] group hover:border-[var(--color-cyan)]/30 transition-all">
-                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Tasks Automated</p>
-                  <p className="text-xl font-bold text-[var(--color-cyan)]">147</p>
+                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Quotes Automated</p>
+                  <p className="text-xl font-bold text-[var(--color-cyan)]">214</p>
                 </div>
                 <div className="p-3 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)] group hover:border-[var(--color-cyan)]/30 transition-all">
-                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Team Capacity</p>
-                  <p className="text-xl font-bold text-[var(--color-blue)]">+35%</p>
+                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Tech Utilization</p>
+                  <p className="text-xl font-bold text-[var(--color-blue)]">+42%</p>
                 </div>
                 <div className="p-3 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)] group hover:border-[var(--color-cyan)]/30 transition-all">
-                  <p className="text-xs text-[var(--color-text-muted)] mb-1">Process Uptime</p>
-                  <p className="text-xl font-bold text-[var(--color-purple-light)]">99.8%</p>
+                  <p className="text-xs text-[var(--color-text-muted)] mb-1">First-Time Fix Rate</p>
+                  <p className="text-xl font-bold text-[var(--color-purple-light)]">94.5%</p>
                 </div>
               </div>
 
@@ -106,9 +105,9 @@ export default function Hero() {
         {/* Stats strip */}
         <div className="mt-20 grid grid-cols-1 sm:grid-cols-3 gap-6 animate-fade-in-up" style={{ animationDelay: '0.4s' }}>
           {[
-            { value: '+240%', label: 'Throughput Increase' },
-            { value: '-20hrs', label: 'Weekly Overhead Saved' },
-            { value: '45%', label: 'Average Cost Reduction' },
+            { value: '+45%', label: 'Service Agreement Closes' },
+            { value: '-25hrs', label: 'Office Overhead Saved Weekly' },
+            { value: '3x', label: 'Faster Estimate Approvals' },
           ].map((s, i) => (
             <div
               key={i}

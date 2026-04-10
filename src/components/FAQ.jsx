@@ -2,28 +2,28 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    q: "Do I need to replace my existing tools?",
-    a: "No. We integrate with whatever you already use — Google Workspace, QuickBooks, HubSpot, Slack, Shopify, you name it. Our job is to make your current stack work harder, not to sell you new software.",
+    q: "Does this integrate with ServiceTitan and Housecall Pro?",
+    a: "Yes. We specialize in Field Service Management (FSM) integrations. Whether you use ServiceTitan, Housecall Pro, Jobber, or FieldEdge, our automations map directly to your existing software without disrupting your techs in the field.",
   },
   {
-    q: "How long does setup take?",
-    a: "Most projects go live within 5–10 business days depending on complexity. We handle all the heavy lifting — you just approve the plan and give us access to the relevant accounts.",
+    q: "Will this confuse my dispatchers or technicians?",
+    a: "Not at all. In fact, they usually love it. Our automations work purely in the background. Techs will still use their standard mobile app, and dispatchers will just notice that annoying manual tasks (like sending ETA texts or updating accounting status) are happening automatically.",
   },
   {
     q: "Do I need any technical skills?",
-    a: "Not at all. We build everything for non-technical operators. You'll get dashboards and alerts, not code. If something needs adjusting, we do it — that's what we're here for.",
+    a: "Zero. We are a \"Done-For-You\" partner. Unlike buying a generic software tool where you have to build the workflows yourself, we architect, build, configure, and test everything for you. You get the results without the headache.",
   },
   {
-    q: "What if my business is too small for this?",
-    a: "If you're doing over $250K in revenue and have at least one operational pain point that eats up your week, you're exactly who we built this for. Our smallest clients see ROI within the first month.",
+    q: "What if my HVAC business is already too busy?",
+    a: "That's exactly when you need us most. We implement these systems specifically to fix the bottlenecks that happen during extreme heat waves or deep freezes. The setup typically requires just a single 45-minute discovery call from your team.",
   },
   {
-    q: "What happens after the initial build?",
-    a: "You can operate independently — everything we build is yours to keep. Most clients choose our Ops Retainer for ongoing monitoring, optimization, and new workflow builds each month.",
+    q: "What happens during shoulder seasons?",
+    a: "Our Service Agreement Engine is built precisely for this. By automatically working your existing customer list to renew maintenance contracts and scheduling tune-ups, we keep your trucks rolling even when the weather is mild.",
   },
   {
-    q: "How do I know this will pay for itself?",
-    a: "Every engagement starts with a detailed ROI projection. If we can't show you at least 3x return in 90 days, we'll tell you before you spend a dime. We've never had a client lose money on an engagement.",
+    q: "How fast will I see a return on investment?",
+    a: "Most of our HVAC partners see a positive ROI within the first 45 days, typically through recapturing lost estimates that weren't followed up on or by eliminating the need to hire a seasonal dispatcher.",
   },
 ]
 
@@ -39,7 +39,7 @@ export default function FAQ() {
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)]">
             Questions?{' '}
-            <span className="gradient-text">Answers.</span>
+            <span className="gradient-text">Operations Answered.</span>
           </h2>
         </div>
 

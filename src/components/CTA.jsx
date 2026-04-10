@@ -18,21 +18,21 @@ export default function CTA() {
           {/* Left: Booking info */}
           <div>
             <span className="inline-block px-4 py-1.5 rounded-full border border-[var(--color-cyan)]/30 text-[var(--color-cyan)] text-xs font-semibold tracking-widest uppercase mb-6">
-              Free Assessment
+              Free HVAC Audit
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-[family-name:var(--font-heading)] mb-4">
               Book Your Free{' '}
               <span className="gradient-text">Operations Audit</span>
             </h2>
             <p className="text-[var(--color-text-secondary)] mb-8 leading-relaxed">
-              See how AI can consistently streamline your operations, reduce overhead, and drive measurable profit growth.
+              Stop letting unbooked installs slip through the cracks. See exactly how automation can scale your dispatching and sales.
             </p>
 
             <div className="space-y-4">
               {[
-                'We find and target your biggest operational bottlenecks',
-                'Done-for-you automation design & implementation',
-                'Built-in reporting with real-time dashboards',
+                'We analyze your FSM & dispatch workflows',
+                'Done-for-you automation implementation',
+                'Built for Housecall Pro, ServiceTitan & More',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full bg-gradient-to-br from-[var(--color-cyan)]/20 to-[var(--color-blue)]/20 border border-[var(--color-cyan)]/30 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -52,7 +52,7 @@ export default function CTA() {
                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
                 </div>
                 <h3 className="text-xl font-bold font-[family-name:var(--font-heading)] mb-2">You're on the list!</h3>
-                <p className="text-[var(--color-text-secondary)]">We'll be in touch within 24 hours to schedule your free assessment.</p>
+                <p className="text-[var(--color-text-secondary)]">We'll be in touch within 24 hours to schedule your free HVAC operations audit.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -75,13 +75,13 @@ export default function CTA() {
                 <div>
                   <input
                     type="text"
-                    placeholder="Company name"
+                    placeholder="HVAC Company name"
                     className="w-full px-4 py-3 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)] text-[var(--color-text-primary)] placeholder-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-cyan)]/60 transition-colors"
                   />
                 </div>
                 <div>
                   <textarea
-                    placeholder="What's your biggest ops headache right now?"
+                    placeholder="What FSM are you using? (ServiceTitan, HCP, Jobber?)"
                     rows={3}
                     className="w-full px-4 py-3 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)] text-[var(--color-text-primary)] placeholder-[var(--color-text-muted)] focus:outline-none focus:border-[var(--color-cyan)]/60 transition-colors resize-none"
                   />
@@ -90,7 +90,7 @@ export default function CTA() {
                   type="submit"
                   className="w-full py-3.5 rounded-xl btn-gradient text-[var(--color-dark-bg)] font-bold cursor-pointer"
                 >
-                  Claim My Free Assessment →
+                  Claim My Free Audit →
                 </button>
                 <p className="text-center text-xs text-[var(--color-text-muted)]">No commitment. No credit card. Just a conversation.</p>
               </form>

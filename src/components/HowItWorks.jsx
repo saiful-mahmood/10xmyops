@@ -2,8 +2,8 @@ export default function HowItWorks() {
   const steps = [
     {
       num: '01',
-      title: 'Discovery Call',
-      desc: 'A 30-minute deep dive into your current operations, pain points, and goals. We identify the 2–3 highest-ROI processes to automate first.',
+      title: 'Operations Audit',
+      desc: 'A 30-minute deep dive into your dispatching, estimating, and quoting process. We identify exactly where your team is wasting the most time.',
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <circle cx="11" cy="11" r="8"/><path d="m21 21-4.3-4.3"/>
@@ -12,8 +12,8 @@ export default function HowItWorks() {
     },
     {
       num: '02',
-      title: 'Refine Strategy',
-      desc: 'We design your custom automation architecture, refine the workflows, and map out every integration with your existing tools.',
+      title: 'System Blueprint',
+      desc: 'We architect a custom workflow that bridges your Field Service Software (FSM) with your CRM, accounting, and marketing tools seamlessly.',
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M12 20V10M18 20V4M6 20v-4"/>
@@ -22,8 +22,8 @@ export default function HowItWorks() {
     },
     {
       num: '03',
-      title: 'Go Live',
-      desc: 'We launch within days, not months. Real-time reporting keeps you in the loop while we continuously optimize for peak performance.',
+      title: 'Launch & Optimize',
+      desc: 'We flip the switch. You instantly get automated follow-ups, streamlined dispatching, and real-time reporting while we continuously optimize for scale.',
       icon: (
         <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
           <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
@@ -41,10 +41,10 @@ export default function HowItWorks() {
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full border border-[var(--color-cyan)]/30 text-[var(--color-cyan)] text-xs font-semibold tracking-[0.2em] uppercase mb-4">
-            Onboarding
+            Deployment
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)] tracking-wide uppercase">
-            Onboarding in{' '}
+            Rolling Out in{' '}
             <span className="gradient-text">3 Steps</span>
           </h2>
         </div>

@@ -1,28 +1,28 @@
 const testimonials = [
   {
-    quote: "10xMyOps rebuilt our entire lead-to-close flow in under two weeks. Booked jobs are up 31% and I haven't hired a single new person.",
+    quote: "10xMyOps rebuilt our dispatch-to-close workflow in under two weeks. We're running 30% more service calls and I didn't have to hire another dispatcher.",
     name: 'Marcus Thompson',
-    role: 'Owner, Apex Home Services',
+    role: 'Owner, Apex Heating & Cooling',
   },
   {
-    quote: "Our DSO went from 34 days to 11 days. Cash flow is no longer something I lose sleep over. These guys just get it.",
+    quote: "Our maintenance agreement renewals used to be a nightmare. Now it's fully automated. We added $40k in recurring revenue this month alone.",
     name: 'Dr. Sarah Lewis',
-    role: 'Practice Owner, Align Chiropractic',
+    role: 'Operations Director, ComfortAir Pros',
   },
   {
-    quote: "They automated our review process and we went from 3.8 to 4.9 stars in two months. Clients are booking because of the reviews now.",
+    quote: "They automated our post-job review process and we went from 3.8 to 4.9 stars on Google right before summer peak. The phone rings non-stop now.",
     name: 'James Kim',
-    role: 'Founder, Pristine Cleaning Co.',
+    role: 'Founder, Elite Climate Solutions',
   },
   {
-    quote: "The operational overhaul they did saved us 20+ hours a week. Our team finally focuses on revenue-generating work instead of admin.",
+    quote: "The operational overhaul saved our CSRs 20+ hours a week. They finally focus on booking high-ticket installs instead of chasing paperwork.",
     name: 'Rachel Gonzalez',
-    role: 'COO, BrightPath Logistics',
+    role: 'COO, Precision HVAC',
   },
   {
-    quote: "We scaled from $500K to $1.2M in revenue without adding headcount. The automation systems they built are game-changing.",
+    quote: "We scaled from 5 to 12 trucks without adding a single person to the office. The automation systems they built for our estimators are game-changing.",
     name: 'David Park',
-    role: 'CEO, Summit Digital Agency',
+    role: 'CEO, Summit Mechanical Services',
   },
 ]
 
@@ -32,7 +32,7 @@ export default function Testimonials() {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 mb-12">
         <div className="text-center">
           <h2 className="text-3xl sm:text-4xl font-extrabold font-[family-name:var(--font-heading)]">
-            What Our Customers Are Saying
+            What Growing HVAC Owners Say
           </h2>
         </div>
       </div>

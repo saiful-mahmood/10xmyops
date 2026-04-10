@@ -1,53 +1,53 @@
 const packages = [
   {
-    name: 'Lead-to-Revenue Autopilot',
+    name: 'Estimate-to-Close Autopilot',
     price: '$2,500',
     unit: 'one-time',
-    desc: 'Full sales pipeline automation — from first touch to closed deal.',
+    desc: 'Fully automated sales pipeline—never lose an unbooked install again.',
     features: [
-      'Lead capture & scoring setup',
-      'Automated nurture sequences',
-      'CRM integration & pipeline views',
-      'Performance reporting dashboard',
+      'Automated estimate follow-ups',
+      'Lost-lead recapture texts',
+      'CRM & FSM data sync',
+      'Sales pipeline dashboard',
     ],
     highlight: false,
   },
   {
-    name: 'Cash-Flow Accelerator',
+    name: 'Service Agreement Engine',
     price: '$2,000',
     unit: 'one-time',
-    desc: 'Automated invoicing and collections so you get paid faster.',
+    desc: 'Keep the calendar full during shoulder seasons with automated renewals.',
     features: [
-      'Smart invoice generation',
-      'Auto-reminders & follow-ups',
-      'Payment gateway integration',
-      'Aging receivables dashboard',
+      'Auto-renewal email & text sequences',
+      'Upcoming maintenance reminders',
+      'Payment gateway handoff',
+      'LTV & Churn dashboard',
     ],
     highlight: true,
   },
   {
-    name: 'Reputation Engine',
+    name: 'Review & Reputation Funnel',
     price: '$1,500',
     unit: 'one-time',
-    desc: 'Hands-free review generation and reputation management system.',
+    desc: 'Dominate your local SEO with hands-free, 5-star Google reviews after every job.',
     features: [
-      'Automated review requests',
-      'Multi-platform distribution',
-      'Response drafting assistance',
-      'Sentiment tracking dashboard',
+      'Triggered post-job requests',
+      'Unhappy customer interception',
+      'Response drafting AI',
+      'Reputation tracking dashboard',
     ],
     highlight: false,
   },
   {
-    name: 'Ops Retainer',
+    name: 'Peak Season Ops Retainer',
     price: '$1,200',
     unit: '/month',
-    desc: 'Ongoing monitoring, optimization, and new workflow builds each month.',
+    desc: 'Ongoing workflow optimization, active monitoring, and priority support.',
     features: [
-      '24/7 workflow monitoring',
+      '24/7 API & workflow monitoring',
       'Monthly optimization sprints',
-      'Priority support & tuning',
-      'Quarterly ROI reviews',
+      'Priority fixes during heatwaves',
+      'Quarterly ROI metrics review',
     ],
     highlight: false,
   },
@@ -62,14 +62,14 @@ export default function Pricing() {
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full border border-[var(--color-cyan)]/30 text-[var(--color-cyan)] text-xs font-semibold tracking-widest uppercase mb-4">
-            Pricing
+            System Pricing
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)] mb-4">
-            Fixed-price packages.{' '}
+            Fixed-price solutions.{' '}
             <span className="gradient-text">No surprises.</span>
           </h2>
           <p className="text-[var(--color-text-secondary)] max-w-2xl mx-auto">
-            Every engagement starts with a free assessment. Pay only when you see the roadmap and agree it makes sense.
+            Get the infrastructure of a $20M HVAC company without hiring a full-time IT department.
           </p>
         </div>
 

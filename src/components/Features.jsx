@@ -1,7 +1,7 @@
 const features = [
   {
-    title: 'White-Glove Execution',
-    desc: 'We manage strategy, setup, workflow design, and optimization — fully done for you, with safe processes that protect your business.',
+    title: 'Done-For-You Integration',
+    desc: 'We map out your processes and integrate everything perfectly with Housecall Pro, ServiceTitan, Jobber, and your existing accounting stack—no coding required.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/>
@@ -9,8 +9,8 @@ const features = [
     ),
   },
   {
-    title: 'High-Precision Targeting',
-    desc: 'We define your exact bottlenecks by department, process, and cost center, then build targeted automation that delivers measurable ROI.',
+    title: 'Zero Dispatch Friction',
+    desc: 'Eliminate manual data entry. We automate tech routing, status updates, and customer ETA texts so your CSRs can focus on high-value conversations.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
@@ -18,8 +18,8 @@ const features = [
     ),
   },
   {
-    title: 'Automated Personalization',
-    desc: 'AI runs best-practice workflows, personalizes every process, optimizes in real time, and routes outputs straight to your team.',
+    title: 'Automated Sales & Renewals',
+    desc: 'AI triggers perfectly-timed estimate follow-ups, drives 5-star reviews on auto-pilot, and handles service agreement renewals before they ever churn.',
     icon: (
       <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" strokeLinecap="round" strokeLinejoin="round">
         <path d="M12 2v20M17 5H9.5a3.5 3.5 0 0 0 0 7h5a3.5 3.5 0 0 1 0 7H6"/>

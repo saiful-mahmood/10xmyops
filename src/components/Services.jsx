@@ -7,14 +7,14 @@ export default function Services() {
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-16">
           <span className="inline-block px-4 py-1.5 rounded-full border border-[var(--color-purple)]/30 text-[var(--color-purple-light)] text-xs font-semibold tracking-widest uppercase mb-4">
-            Our Services
+            Our Solutions
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)] mb-4">
-            Our Operational Efficiency{' '}
-            <span className="gradient-text">Platform</span>
+            The HVAC Operational{' '}
+            <span className="gradient-text">Engine</span>
           </h2>
           <p className="text-[var(--color-text-secondary)] max-w-2xl mx-auto text-lg">
-            A done-for-you system that audits your workflows, automates repetitive tasks, and delivers measurable results.
+            A done-for-you system that audits your dispatching, automates follow-ups, and integrates perfectly with Housecall Pro, ServiceTitan, and Jobber.
           </p>
         </div>
 
@@ -27,7 +27,7 @@ export default function Services() {
                 <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[var(--color-cyan)] to-[var(--color-blue)] flex items-center justify-center">
                   <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#0b0d1a" strokeWidth="2.5"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
                 </div>
-                <span className="font-bold text-[var(--color-text-primary)]">10xMyOps Dashboard</span>
+                <span className="font-bold text-[var(--color-text-primary)]">10xMyOps HVAC Control Center</span>
               </div>
               <div className="flex gap-2">
                 <span className="w-3 h-3 rounded-full bg-red-500/80" />
@@ -39,12 +39,12 @@ export default function Services() {
             {/* Metrics grid */}
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-4 mb-6">
               {[
-                { label: 'Workflows Active', val: '24', color: 'text-[var(--color-cyan)]', icon: '⚡' },
-                { label: 'Tasks Completed', val: '1,847', color: 'text-emerald-400', icon: '✓' },
-                { label: 'Hours Saved', val: '320+', color: 'text-[var(--color-purple-light)]', icon: '⏱' },
-                { label: 'Error Rate', val: '0.3%', color: 'text-emerald-400', icon: '↓' },
-                { label: 'Team Efficiency', val: '94%', color: 'text-[var(--color-blue)]', icon: '↑' },
-                { label: 'Cost Savings', val: '$12.4K', color: 'text-[var(--color-amber)]', icon: '💰' },
+                { label: 'Automated Dispatches', val: '142', color: 'text-[var(--color-cyan)]', icon: '🚚' },
+                { label: 'Agreements Renewed', val: '86', color: 'text-emerald-400', icon: '🔄' },
+                { label: 'CSR Hours Saved', val: '45+', color: 'text-[var(--color-purple-light)]', icon: '⏱' },
+                { label: 'Lost Lead Recaptures', val: '22', color: 'text-emerald-400', icon: '📈' },
+                { label: 'Tech Productivity', val: '92%', color: 'text-[var(--color-blue)]', icon: '🛠' },
+                { label: 'Recaptured Revenue', val: '$28.4K', color: 'text-[var(--color-amber)]', icon: '💰' },
               ].map((m, i) => (
                 <div key={i} className="p-4 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)] hover:border-[var(--color-cyan)]/20 transition-all">
                   <div className="flex items-center gap-2 mb-2">
@@ -59,10 +59,10 @@ export default function Services() {
             {/* Chart placeholder */}
             <div className="p-4 rounded-xl bg-[var(--color-dark-bg)] border border-[var(--color-dark-border)]">
               <div className="flex items-center justify-between mb-4">
-                <p className="text-sm font-semibold text-[var(--color-text-primary)]">Weekly Performance</p>
+                <p className="text-sm font-semibold text-[var(--color-text-primary)]">Weekly Install vs. Service Growth</p>
                 <div className="flex items-center gap-4 text-xs text-[var(--color-text-muted)]">
-                  <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-[var(--color-cyan)]"></span> Tasks</span>
-                  <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-[var(--color-purple)]"></span> Savings</span>
+                  <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-[var(--color-cyan)]"></span> Installs</span>
+                  <span className="flex items-center gap-1"><span className="w-2 h-2 rounded-full bg-[var(--color-purple)]"></span> Service Calls</span>
                 </div>
               </div>
               <div className="flex items-end gap-2 h-32">
