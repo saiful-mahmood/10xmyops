@@ -4,7 +4,6 @@ import Testimonials from './components/Testimonials'
 import Services from './components/Services'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
-import Pricing from './components/Pricing'
 import ROICalculator from './components/ROICalculator'
 import FAQ from './components/FAQ'
 import CTA from './components/CTA'
@@ -20,7 +19,6 @@ export default function App() {
         <Services />
         <Features />
         <HowItWorks />
-        <Pricing />
         <ROICalculator />
         <FAQ />
         <CTA />
