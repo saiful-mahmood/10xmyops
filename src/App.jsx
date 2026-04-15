@@ -6,6 +6,8 @@ import Testimonials from './components/Testimonials'
 import ProductGTM from './components/ProductGTM'
 import Features from './components/Features'
 import HowItWorks from './components/HowItWorks'
+import Calculator from './components/Calculator'
+import Pricing from './components/Pricing'
 // AI Components
 import HeroAI from './components/HeroAI'
 import SectorsAI from './components/SectorsAI'
@@ -31,6 +33,8 @@ export default function App() {
             <ProductGTM />
             <Features />
             <HowItWorks />
+            <Calculator />
+            <Pricing />
             <FAQ />
             <CTA />
           </>
