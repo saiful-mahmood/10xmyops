@@ -1,0 +1,69 @@
+export default function HeroGTM() {
+  return (
+    <section className="relative min-h-[90vh] flex items-center pt-24 overflow-hidden">
+      {/* Background gradients */}
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1a0a3e] via-[#0f1225] to-[var(--color-dark-bg)] -z-20" />
+      <div className="absolute top-0 left-0 w-full h-[600px] bg-gradient-to-b from-purple-600/20 via-indigo-600/5 to-transparent -z-10 blur-3xl" />
+
+      <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 w-full">
+        <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
+          
+          {/* Left: Copy */}
+          <div className="animate-fade-in-up md:pr-8">
+            <div className="flex flex-wrap gap-3 mb-8">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a1c2e] border border-white/5">
+                <div className="w-5 h-5 rounded-full bg-[#00A4E4] flex items-center justify-center">
+                  <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
+                </div>
+                <span className="text-sm font-semibold text-white">Housecall Pro Partner</span>
+              </div>
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20">
+                <span className="text-sm font-semibold text-amber-500">Trusted by 600+ HVAC Professionals</span>
+              </div>
+            </div>
+
+            <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-[family-name:var(--font-heading)] leading-[1.15] mb-6">
+              AI-Powered GTM for <br className="hidden lg:block"/>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+                HVAC Dispatch
+              </span>
+            </h1>
+
+            <p className="text-lg text-gray-300 mb-8 max-w-xl leading-relaxed">
+              Fully automated lead generation, follow-ups, and marketing—delivering consistent, qualified heating and cooling leads directly to your CRM.
+            </p>
+
+            <a href="#cta" className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-bold text-base hover:from-blue-400 hover:to-cyan-300 transition-all shadow-[0_0_20px_rgba(34,211,238,0.2)]">
+              Get Started
+            </a>
+          </div>
+
+          {/* Right: Graphic Collage (Hexagon representation) */}
+          <div className="relative animate-float pt-10 lg:pt-0">
+            <div className="w-full aspect-square max-w-[500px] ml-auto relative">
+              {/* This mimics the hexagon slices from ModernEdge but using CSS styling */}
+              <div className="absolute inset-0" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
+                <div className="grid grid-cols-2 grid-rows-2 h-full gap-1 bg-white/5 p-1">
+                  <div className="bg-gradient-to-br from-cyan-500/20 to-blue-600/20 flex items-center justify-center p-4">
+                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">HVAC<br/>Installs</span>
+                  </div>
+                  <div className="bg-gradient-to-bl from-purple-500/20 to-indigo-600/20 flex items-center justify-center p-4">
+                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Service<br/>Calls</span>
+                  </div>
+                  <div className="bg-gradient-to-tr from-amber-500/20 to-orange-600/20 flex items-center justify-center p-4">
+                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Maintenance<br/>Contracts</span>
+                  </div>
+                  <div className="bg-gradient-to-tl from-emerald-500/20 to-teal-600/20 flex items-center justify-center p-4">
+                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Commercial<br/>Routing</span>
+                  </div>
+                </div>
+              </div>
+              <div className="absolute -inset-4 bg-gradient-to-r from-cyan-500/10 via-blue-500/10 to-purple-500/10 rounded-full blur-3xl -z-10" />
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </section>
+  )
+}
