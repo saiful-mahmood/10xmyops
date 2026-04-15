@@ -50,7 +50,7 @@ export default function Pricing() {
                 </div>
                 <span className="text-xs text-gray-400 font-medium uppercase tracking-wider">Powered by Calendly</span>
               </div>
-              <h3 className="text-2xl font-bold mb-4">Prospex AI Demo</h3>
+              <h3 className="text-2xl font-bold mb-4">10xOps AI Demo</h3>
               <div className="flex items-center gap-2 text-sm text-gray-500 mb-2">
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
                 30 min
