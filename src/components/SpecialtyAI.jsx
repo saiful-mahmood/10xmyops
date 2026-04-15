@@ -12,10 +12,10 @@ export default function SpecialtyAI() {
               <span className="text-indigo-400">Conversational AI Agents</span>
             </h2>
             <p className="text-gray-300 text-lg mb-6 leading-relaxed">
-              We deliver fully customizable conversational AI agents for voice and text designed specifically for the trades. Prevent lost revenue from missed calls while your dispatchers are tied up.
+              We deliver fully customizable conversational AI agents for voice and text that handle customer inquiries, book appointments, and qualify leads 24/7.
             </p>
             <p className="text-gray-400 leading-relaxed">
-              We build secure, end-to-end AI platforms that handle intent detection (e.g. \"My AC is blowing warm air\"), knowledge retrieval from your price books, and decision logic with enterprise-grade privacy and auditability.
+              We build secure, end-to-end AI platforms that handle intent detection, knowledge retrieval, and decision logic with enterprise-grade privacy and auditability.
             </p>
             <div className="mt-10">
               <a href="#cta" className="px-8 py-3 rounded border border-indigo-500 text-indigo-400 font-bold hover:bg-indigo-500 hover:text-white transition-colors">
@@ -26,7 +26,6 @@ export default function SpecialtyAI() {
 
           <div className="order-1 lg:order-2">
             <div className="relative rounded-2xl overflow-hidden border border-white/10 shadow-2xl p-6 bg-[#0a0c16]">
-              {/* Fake chat interface */}
               <div className="flex flex-col gap-4">
                 <div className="flex gap-4 p-4 rounded-lg bg-white/5 w-4/5">
                   <div className="w-8 h-8 rounded-full bg-blue-500/20 shrink-0" />

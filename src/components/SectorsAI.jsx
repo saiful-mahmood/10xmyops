@@ -1,33 +1,33 @@
 const sectors = [
   {
-    title: 'Commercial HVAC',
-    desc: 'Automated bidding workflows, maintenance contract parsing, and intelligent dispatch routing for large-scale properties.',
+    title: 'Banking & Finance',
+    items: ['Fraud Detection Systems', 'Credit Risk Underwriting Agents', 'Regulatory Compliance Automation'],
   },
   {
-    title: 'Residential Service',
-    desc: 'Voice AI agents to book calls 24/7, automated technician routing based on skill-sets, and diagnostic intent detection.',
+    title: 'Healthcare',
+    items: ['Claims Processing Automation', 'Multi-Channel Support Platforms', 'Voice AI Agents'],
   },
   {
-    title: 'Plumbing & Pipefitting',
-    desc: 'Intelligent document processing for parts ordering, multi-channel customer support platforms, and dispatch logic.',
+    title: 'Oil & Gas',
+    items: ['Regulatory Compliance Monitoring', 'Security Incident Response', 'Intelligent Document Processing'],
   },
   {
-    title: 'Electrical Contractors',
-    desc: 'Automated municipal permit processing, regulatory compliance monitoring, and high-ticket estimate follow-ups.',
+    title: 'Airlines',
+    items: ['Intelligent Booking Assistants', 'Multilingual Customer Service', 'Real-Time Flight Ops Support'],
   },
   {
-    title: 'Refrigeration',
-    desc: 'IoT alert ingestion and automated emergency dispatch routing, ensuring immediate security and incident response.',
+    title: 'Trades',
+    items: ['AI-Powered Lead Generation', 'Automated Scheduling & Dispatch', 'CRM & Email Integration'],
   },
   {
-    title: 'Public Sector Trades',
-    desc: 'Inter-agency data integration, citizen service reporting automation, and prevailing wage compliance tracking.',
+    title: 'Public Sector',
+    items: ['Intelligent Dispatch Systems', 'Citizen Service Automation', 'Inter-Agency Data Integration'],
   },
 ]
 
 export default function SectorsAI() {
   return (
-    <section className="py-24 relative bg-[var(--color-dark-bg)]">
+    <section className="py-24 relative bg-[#0b0c15]">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-12 text-center text-white">
           Core Services by Sector
@@ -37,7 +37,14 @@ export default function SectorsAI() {
           {sectors.map((s, i) => (
             <div key={i} className="p-8 rounded-2xl border border-white/10 bg-[#0f1225] hover:bg-[#151832] transition-colors">
               <h3 className="text-xl font-bold mb-4 text-indigo-300">{s.title}</h3>
-              <p className="text-gray-400 font-light leading-relaxed">{s.desc}</p>
+              <ul className="space-y-2">
+                {s.items.map((item, j) => (
+                  <li key={j} className="flex items-start gap-2 text-gray-400 text-sm">
+                    <span className="text-indigo-400 mt-0.5">•</span>
+                    {item}
+                  </li>
+                ))}
+              </ul>
             </div>
           ))}
         </div>

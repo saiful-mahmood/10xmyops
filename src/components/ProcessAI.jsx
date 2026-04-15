@@ -2,22 +2,22 @@ const steps = [
   {
     num: '01',
     title: 'Discovery',
-    desc: 'We map your business objectives, identify HVAC dispatch constraints, and analyze your FSM compliance and data structures.',
+    desc: 'We map your business objectives, compliance requirements, and identify high-impact AI opportunities.',
   },
   {
     num: '02',
     title: 'Design',
-    desc: 'We architect robust agentic AI systems customized to read your tech notes, interpret invoices, and understand your service areas.',
+    desc: 'We architect conversational and agentic AI systems customized to your operational workflows.',
   },
   {
     num: '03',
     title: 'Implementation',
-    desc: 'Seamless integration with Housecall Pro or ServiceTitan, launching live with controlled, phased deployments to your CSRs.',
+    desc: 'Seamless integration with your existing systems, launching live with controlled, phased deployments.',
   },
   {
     num: '04',
     title: 'Optimization',
-    desc: 'Ongoing governance, model refinement, and scaling the AI infrastructure as your truck fleet grows.',
+    desc: 'Ongoing governance, model refinement, and scaling your AI infrastructure as your organization grows.',
   },
 ]
 

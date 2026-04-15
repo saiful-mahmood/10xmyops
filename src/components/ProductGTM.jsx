@@ -1,15 +1,15 @@
 export default function ProductGTM() {
   return (
-    <section className="py-24 relative overflow-hidden bg-[var(--color-dark-bg)]">
+    <section className="py-24 relative overflow-hidden bg-[#0b0c15]">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         
         <div className="text-center mb-16 max-w-3xl mx-auto">
           <span className="inline-block px-3 py-1 rounded bg-[#1a1c2e] border border-white/10 text-cyan-400 text-xs font-bold tracking-widest uppercase mb-6">
             Lead Generation
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Our Lead Gen Product, <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">OpsFlow</span></h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6">Our Lead Gen Product, <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Prospex</span></h2>
           <p className="text-gray-400 text-lg leading-relaxed">
-            A done-for-you cold outreach system that finds verified property managers and commercial decision-makers, delivers personalized emails, and generates commercial HVAC service requests.
+            A done-for-you cold email system that finds verified decision-makers, delivers personalized emails, and generates replies—so you can focus on closing.
           </p>
         </div>
 
@@ -26,10 +26,10 @@ export default function ProductGTM() {
             
             <div className="grid grid-cols-2 md:grid-cols-4 gap-4 mb-8">
               {[
-                { label: 'Outreach Sent', val: '4,521', trend: '+12%' },
-                { label: 'Avg Open Rate', val: '64%', trend: '+8%' },
-                { label: 'Interested Reply Rate', val: '4.2%', trend: '+1.1%' },
-                { label: 'Commercial Walkthroughs', val: '18', trend: '+4' }
+                { label: 'Emails Sent', val: '12,842', trend: '+18%' },
+                { label: 'Reply Rate', val: '4.8%', trend: '+0.6%' },
+                { label: 'Email Bounces', val: '0.3%', trend: '-0.1%' },
+                { label: 'Interested Reply Rate', val: '62%', trend: '+5%' }
               ].map((m, i) => (
                 <div key={i} className="p-4 bg-[#0f1225] rounded-xl border border-white/5">
                   <p className="text-xs text-gray-500 mb-2">{m.label}</p>
@@ -42,7 +42,6 @@ export default function ProductGTM() {
             </div>
 
             <div className="h-48 bg-[#0f1225] rounded-xl border border-white/5 flex items-end justify-between p-4 gap-2">
-              {/* Fake bars */}
               {[40,30,50,45,60,80,65,90,75,85,95,90,80,95,100].map((h,i) => (
                 <div key={i} className="w-full bg-blue-500/50 rounded-t-sm transition-all hover:bg-cyan-400" style={{height: `${h}%`}}></div>
               ))}

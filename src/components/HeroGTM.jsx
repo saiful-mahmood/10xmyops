@@ -15,22 +15,22 @@ export default function HeroGTM() {
                 <div className="w-5 h-5 rounded-full bg-[#00A4E4] flex items-center justify-center">
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
                 </div>
-                <span className="text-sm font-semibold text-white">Housecall Pro Partner</span>
+                <span className="text-sm font-semibold text-white">A Thumbtack Partner</span>
               </div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20">
-                <span className="text-sm font-semibold text-amber-500">Trusted by 600+ HVAC Professionals</span>
+                <span className="text-sm font-semibold text-amber-500">Trusted by 600+ Trade Professionals</span>
               </div>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-[family-name:var(--font-heading)] leading-[1.15] mb-6">
-              AI-Powered GTM for <br className="hidden lg:block"/>
+              AI-Powered GTM for{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                HVAC Dispatch
+                Trades Services
               </span>
             </h1>
 
             <p className="text-lg text-gray-300 mb-8 max-w-xl leading-relaxed">
-              Fully automated lead generation, follow-ups, and marketing—delivering consistent, qualified heating and cooling leads directly to your CRM.
+              Fully automated cold email outreach, delivering <strong className="text-white">consistent, qualified leads</strong> straight to your inbox.
             </p>
 
             <a href="#cta" className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-bold text-base hover:from-blue-400 hover:to-cyan-300 transition-all shadow-[0_0_20px_rgba(34,211,238,0.2)]">
@@ -38,23 +38,22 @@ export default function HeroGTM() {
             </a>
           </div>
 
-          {/* Right: Graphic Collage (Hexagon representation) */}
+          {/* Right: Hexagonal collage */}
           <div className="relative animate-float pt-10 lg:pt-0">
             <div className="w-full aspect-square max-w-[500px] ml-auto relative">
-              {/* This mimics the hexagon slices from ModernEdge but using CSS styling */}
               <div className="absolute inset-0" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
                 <div className="grid grid-cols-2 grid-rows-2 h-full gap-1 bg-white/5 p-1">
                   <div className="bg-gradient-to-br from-cyan-500/20 to-blue-600/20 flex items-center justify-center p-4">
-                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">HVAC<br/>Installs</span>
+                    <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">HVAC<br/>Installs</span>
                   </div>
                   <div className="bg-gradient-to-bl from-purple-500/20 to-indigo-600/20 flex items-center justify-center p-4">
-                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Service<br/>Calls</span>
+                    <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Roofing<br/>Repairs</span>
                   </div>
                   <div className="bg-gradient-to-tr from-amber-500/20 to-orange-600/20 flex items-center justify-center p-4">
-                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Maintenance<br/>Contracts</span>
+                    <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Plumbing<br/>Services</span>
                   </div>
                   <div className="bg-gradient-to-tl from-emerald-500/20 to-teal-600/20 flex items-center justify-center p-4">
-                     <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Commercial<br/>Routing</span>
+                    <span className="text-white/40 font-bold text-xl uppercase tracking-widest text-center">Electrical<br/>Contracting</span>
                   </div>
                 </div>
               </div>
