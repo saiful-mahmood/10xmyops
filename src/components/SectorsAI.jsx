@@ -35,11 +35,11 @@ export default function SectorsAI() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {sectors.map((s, i) => (
-            <div key={i} className="p-8 rounded-2xl border border-[#263a5e]/50 bg-[#152036] hover:bg-[#1a2844] transition-colors">
+            <div key={i} className="p-8 rounded-2xl border border-[#2d4470] bg-[#152036] hover:bg-[#1a2844] transition-colors">
               <h3 className="text-xl font-bold mb-4 text-indigo-300">{s.title}</h3>
               <ul className="space-y-2">
                 {s.items.map((item, j) => (
-                  <li key={j} className="flex items-start gap-2 text-[#a8b8cf] text-sm">
+                  <li key={j} className="flex items-start gap-2 text-[#cbd5e1] text-sm">
                     <span className="text-indigo-400 mt-0.5">•</span>
                     {item}
                   </li>

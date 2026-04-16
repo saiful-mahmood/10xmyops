@@ -36,13 +36,13 @@ export default function Features() {
           {features.map((f, i) => (
             <div
               key={i}
-              className="group p-8 rounded-2xl border border-[#263a5e]/50 bg-[#152036] hover:border-cyan-400/40 transition-all duration-300 hover:-translate-y-1"
+              className="group p-8 rounded-2xl border border-[#2d4470] bg-[#152036] hover:border-cyan-400/40 transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-500/10 to-blue-500/10 border border-[#263a5e] flex items-center justify-center text-cyan-400 mb-5 group-hover:border-cyan-400/40 group-hover:shadow-[0_0_20px_rgba(34,211,238,0.15)] transition-all duration-300">
+              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-500/15 to-blue-500/15 border border-[#2d4470] flex items-center justify-center text-cyan-400 mb-5 group-hover:border-cyan-400/40 group-hover:shadow-[0_0_20px_rgba(34,211,238,0.15)] transition-all duration-300">
                 {f.icon}
               </div>
               <h3 className="text-xl font-bold font-[family-name:var(--font-heading)] mb-3 text-white">{f.title}</h3>
-              <p className="text-[#a8b8cf] leading-relaxed">{f.desc}</p>
+              <p className="text-[#cbd5e1] leading-relaxed">{f.desc}</p>
             </div>
           ))}
         </div>

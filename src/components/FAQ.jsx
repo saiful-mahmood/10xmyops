@@ -34,10 +34,10 @@ export default function FAQ() {
     <section id="faq" className="py-24 md:py-32 relative">
       <div className="max-w-3xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-16">
-          <span className="inline-block px-4 py-1.5 rounded-full border border-cyan-400/30 text-cyan-400 text-xs font-semibold tracking-widest uppercase mb-4">
+          <span className="inline-block px-4 py-1.5 rounded-full border border-cyan-400/40 text-cyan-400 text-xs font-semibold tracking-widest uppercase mb-4">
             FAQ
           </span>
-          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)]">
+          <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)] text-white">
             Common Questions
           </h2>
         </div>
@@ -48,8 +48,8 @@ export default function FAQ() {
               key={i}
               className={`rounded-2xl border bg-[#152036] overflow-hidden transition-all duration-300 ${
                 open === i
-                  ? 'border-cyan-400/30 shadow-[0_0_20px_rgba(34,211,238,0.05)]'
-                  : 'border-[#263a5e]/50 hover:border-[#345080]'
+                  ? 'border-cyan-400/40 shadow-[0_0_20px_rgba(34,211,238,0.05)]'
+                  : 'border-[#2d4470] hover:border-[#3d5a90]'
               }`}
             >
               <button
@@ -60,7 +60,7 @@ export default function FAQ() {
                 <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
                   open === i
                     ? 'bg-gradient-to-br from-cyan-400 to-blue-500 rotate-45'
-                    : 'bg-[#0e1628] border border-[#263a5e]'
+                    : 'bg-[#0e1628] border border-[#2d4470]'
                 }`}>
                   <svg
                     className={`w-4 h-4 transition-colors duration-300 ${open === i ? 'text-[#0e1628]' : 'text-cyan-400'}`}
@@ -76,7 +76,7 @@ export default function FAQ() {
                 }`}
               >
                 <div className="overflow-hidden">
-                  <p className="px-5 pb-5 text-[#a8b8cf] leading-relaxed">{f.a}</p>
+                  <p className="px-5 pb-5 text-[#cbd5e1] leading-relaxed">{f.a}</p>
                 </div>
               </div>
             </div>

@@ -10,31 +10,31 @@ export default function HeroAI() {
           <div className="relative animate-float order-2 lg:order-1 pt-10 lg:pt-0">
             <div className="w-full aspect-square max-w-[500px] mr-auto relative">
               <div className="absolute inset-0" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>
-                <div className="grid grid-cols-2 grid-rows-2 h-full gap-1 bg-white/5 p-1">
+                <div className="grid grid-cols-2 grid-rows-2 h-full gap-1 bg-white/10 p-1">
                   <div className="bg-[#152036] flex items-center justify-center p-4">
-                    <span className="text-white/30 font-bold text-xl uppercase tracking-widest text-center">Banking<br/>&amp; Finance</span>
+                    <span className="text-white/50 font-bold text-xl uppercase tracking-widest text-center">Banking<br/>&amp; Finance</span>
                   </div>
                   <div className="bg-[#1a2844] flex items-center justify-center p-4">
-                    <span className="text-white/30 font-bold text-xl uppercase tracking-widest text-center">Healthcare<br/>Systems</span>
+                    <span className="text-white/50 font-bold text-xl uppercase tracking-widest text-center">Healthcare<br/>Systems</span>
                   </div>
                   <div className="bg-[#1a2844] flex items-center justify-center p-4">
-                    <span className="text-white/30 font-bold text-xl uppercase tracking-widest text-center">Oil<br/>&amp; Gas</span>
+                    <span className="text-white/50 font-bold text-xl uppercase tracking-widest text-center">Oil<br/>&amp; Gas</span>
                   </div>
                   <div className="bg-[#152036] flex items-center justify-center p-4">
-                    <span className="text-white/30 font-bold text-xl uppercase tracking-widest text-center">Public<br/>Sector</span>
+                    <span className="text-white/50 font-bold text-xl uppercase tracking-widest text-center">Public<br/>Sector</span>
                   </div>
                 </div>
               </div>
-              <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/10 via-cyan-500/10 to-indigo-500/10 rounded-full blur-3xl -z-10" />
+              <div className="absolute -inset-4 bg-gradient-to-r from-blue-500/15 via-cyan-500/15 to-indigo-500/15 rounded-full blur-3xl -z-10" />
             </div>
           </div>
 
           <div className="animate-fade-in-up lg:pl-8 order-1 lg:order-2">
             <div className="flex flex-wrap gap-3 mb-8">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#152036] border border-[#263a5e]/50">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-lg bg-[#1a2844] border border-[#2d4470]">
                 <span className="text-sm font-semibold text-white">Certified Government Contractor</span>
               </div>
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/10 border border-blue-500/20">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-blue-500/15 border border-blue-500/30">
                 <span className="text-sm font-semibold text-blue-400">Deployed Across 30+ Organizations</span>
               </div>
             </div>
@@ -43,7 +43,7 @@ export default function HeroAI() {
               Enterprise AI That Transforms Operations
             </h1>
 
-            <p className="text-lg text-[#a8b8cf] mb-8 max-w-xl leading-relaxed">
+            <p className="text-lg text-[#cbd5e1] mb-8 max-w-xl leading-relaxed">
               Bespoke AI strategy, design, and deployment to modernize your workflows and unlock measurable efficiency gains.
             </p>
 

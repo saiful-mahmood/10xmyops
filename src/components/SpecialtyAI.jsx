@@ -11,10 +11,10 @@ export default function SpecialtyAI() {
               Our Specialty:<br/>
               <span className="text-indigo-400">Conversational AI Agents</span>
             </h2>
-            <p className="text-[#a8b8cf] text-lg mb-6 leading-relaxed">
+            <p className="text-[#cbd5e1] text-lg mb-6 leading-relaxed">
               We build voice and text AI agents that field customer inquiries around the clock—qualifying leads, booking appointments, and resolving routine requests without human involvement.
             </p>
-            <p className="text-[#7b8fad] leading-relaxed">
+            <p className="text-[#94a3b8] leading-relaxed">
               Under the hood, our platforms combine intent classification, real-time knowledge retrieval, and deterministic decision logic—all wrapped in enterprise-grade security and full audit trails.
             </p>
             <div className="mt-10">
@@ -25,16 +25,16 @@ export default function SpecialtyAI() {
           </div>
 
           <div className="order-1 lg:order-2">
-            <div className="relative rounded-2xl overflow-hidden border border-[#263a5e]/50 shadow-2xl p-6 bg-[#0e1628]">
+            <div className="relative rounded-2xl overflow-hidden border border-[#2d4470] shadow-2xl p-6 bg-[#0e1628]">
               <div className="flex flex-col gap-4">
                 <div className="flex gap-4 p-4 rounded-lg bg-white/5 w-4/5">
-                  <div className="w-8 h-8 rounded-full bg-blue-500/20 shrink-0" />
+                  <div className="w-8 h-8 rounded-full bg-blue-500/30 shrink-0" />
                   <div>
-                    <div className="h-2 w-32 bg-[#263a5e] rounded mb-2"></div>
+                    <div className="h-2 w-32 bg-[#2d4470] rounded mb-2"></div>
                     <div className="h-2 w-48 bg-[#1a2844] rounded"></div>
                   </div>
                 </div>
-                <div className="flex gap-4 p-4 rounded-lg bg-indigo-600/10 w-4/5 self-end border border-indigo-500/20">
+                <div className="flex gap-4 p-4 rounded-lg bg-indigo-600/15 w-4/5 self-end border border-indigo-500/30">
                   <div className="w-full">
                     <div className="h-2 w-24 bg-indigo-400 rounded mb-2 ml-auto"></div>
                     <div className="h-2 w-40 bg-indigo-900 rounded mb-2 ml-auto"></div>
@@ -43,9 +43,9 @@ export default function SpecialtyAI() {
                   <div className="w-8 h-8 rounded-full bg-indigo-600 shrink-0" />
                 </div>
                 <div className="flex gap-4 p-4 rounded-lg bg-white/5 w-4/5">
-                  <div className="w-8 h-8 rounded-full bg-blue-500/20 shrink-0" />
+                  <div className="w-8 h-8 rounded-full bg-blue-500/30 shrink-0" />
                   <div>
-                    <div className="h-2 w-48 bg-[#263a5e] rounded mb-2"></div>
+                    <div className="h-2 w-48 bg-[#2d4470] rounded mb-2"></div>
                     <div className="h-2 w-32 bg-[#1a2844] rounded"></div>
                   </div>
                 </div>

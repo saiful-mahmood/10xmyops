@@ -30,7 +30,7 @@ export default function ProcessAI() {
         </h2>
 
         <div className="grid md:grid-cols-4 gap-8 md:gap-4 relative">
-          <div className="hidden md:block absolute top-[28px] left-[10%] right-[10%] h-px border-t border-[#263a5e]" />
+          <div className="hidden md:block absolute top-[28px] left-[10%] right-[10%] h-px border-t border-[#2d4470]" />
           
           {steps.map((s, i) => (
             <div key={i} className="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
@@ -38,7 +38,7 @@ export default function ProcessAI() {
                 {s.num}
               </div>
               <h3 className="text-xl font-bold text-white mb-3">{s.title}</h3>
-              <p className="text-[#a8b8cf] leading-relaxed text-sm md:text-base pr-0 md:pr-4">{s.desc}</p>
+              <p className="text-[#cbd5e1] leading-relaxed text-sm md:text-base pr-0 md:pr-4">{s.desc}</p>
             </div>
           ))}
         </div>
