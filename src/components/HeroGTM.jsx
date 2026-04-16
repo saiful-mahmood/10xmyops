@@ -1,36 +1,34 @@
 export default function HeroGTM() {
   return (
     <section className="relative min-h-[90vh] flex items-center pt-24 overflow-hidden">
-      {/* Background gradients */}
-      <div className="absolute inset-0 bg-gradient-to-b from-[#1a0a3e] via-[#0f1225] to-[var(--color-dark-bg)] -z-20" />
-      <div className="absolute top-0 left-0 w-full h-[600px] bg-gradient-to-b from-purple-600/20 via-indigo-600/5 to-transparent -z-10 blur-3xl" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#1a1050] via-[#0e1628] to-[#0e1628] -z-20" />
+      <div className="absolute top-0 left-0 w-full h-[600px] bg-gradient-to-b from-purple-600/15 via-indigo-600/5 to-transparent -z-10 blur-3xl" />
 
       <div className="relative max-w-7xl mx-auto px-6 sm:px-8 lg:px-12 py-16 w-full">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-16 items-center">
           
-          {/* Left: Copy */}
           <div className="animate-fade-in-up md:pr-8">
             <div className="flex flex-wrap gap-3 mb-8">
-              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#1a1c2e] border border-white/5">
+              <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-[#152036] border border-[#263a5e]/50">
                 <div className="w-5 h-5 rounded-full bg-[#00A4E4] flex items-center justify-center">
                   <svg width="10" height="10" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
                 </div>
                 <span className="text-sm font-semibold text-white">A Thumbtack Partner</span>
               </div>
               <div className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-amber-500/10 border border-amber-500/20">
-                <span className="text-sm font-semibold text-amber-500">Trusted by 600+ Trade Professionals</span>
+                <span className="text-sm font-semibold text-amber-400">Trusted by 600+ Trade Professionals</span>
               </div>
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-extrabold font-[family-name:var(--font-heading)] leading-[1.15] mb-6">
-              AI-Powered GTM for{' '}
+              Automated Outreach for{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
-                Trades Services
+                Trade Service Businesses
               </span>
             </h1>
 
-            <p className="text-lg text-gray-300 mb-8 max-w-xl leading-relaxed">
-              Fully automated cold email outreach, delivering <strong className="text-white">consistent, qualified leads</strong> straight to your inbox.
+            <p className="text-lg text-[#a8b8cf] mb-8 max-w-xl leading-relaxed">
+              We run your entire cold email engine from start to finish—finding verified contacts, writing personalized sequences, and putting <strong className="text-white">warm, ready-to-close leads</strong> directly in your inbox.
             </p>
 
             <a href="#cta" className="inline-flex items-center gap-2 px-8 py-4 rounded-full bg-gradient-to-r from-blue-500 to-cyan-400 text-white font-bold text-base hover:from-blue-400 hover:to-cyan-300 transition-all shadow-[0_0_20px_rgba(34,211,238,0.2)]">
@@ -38,7 +36,6 @@ export default function HeroGTM() {
             </a>
           </div>
 
-          {/* Right: Hexagonal collage */}
           <div className="relative animate-float pt-10 lg:pt-0">
             <div className="w-full aspect-square max-w-[500px] ml-auto relative">
               <div className="absolute inset-0" style={{ clipPath: 'polygon(50% 0%, 100% 25%, 100% 75%, 50% 100%, 0% 75%, 0% 25%)' }}>

@@ -2,28 +2,28 @@ import { useState } from 'react'
 
 const faqs = [
   {
-    q: "What kind of businesses do you work with?",
-    a: "We work with trade service businesses of all sizes—HVAC, roofing, plumbing, electrical, cleaning, landscaping, and more. If you sell B2B services and need qualified leads, we can help.",
+    q: "Which types of trade businesses do you support?",
+    a: "We partner with service-based trade businesses across the board—HVAC, roofing, plumbing, electrical, commercial cleaning, landscaping, and general contracting. If you sell B2B or high-ticket residential services and need a steady flow of prospects, we're built for you.",
   },
   {
-    q: "How does the cold email system work?",
-    a: "We handle everything end-to-end. We source and verify lead lists of decision-makers in your target market, set up and warm dedicated sending inboxes, write personalized email sequences, and continuously optimize for deliverability and reply rates. Interested replies go straight to your inbox.",
+    q: "How does the automated email outreach work?",
+    a: "We manage the full lifecycle. We source and verify decision-maker contact lists in your target market, configure dedicated sending domains with proper warm-up, author personalized email sequences, and iterate on performance weekly. Warm replies land directly in your inbox—ready for you to close.",
   },
   {
-    q: "Will cold emails hurt my domain reputation?",
-    a: "No. We use dedicated sending domains and a careful inbox warming process to protect your primary domain. Safe sending limits, rotation, and deliverability monitoring are all built in.",
+    q: "Will this damage my sending reputation?",
+    a: "Not at all. We operate from separate sending domains with gradual warm-up protocols, so your primary domain is never exposed. Bounces stay under 1%, and we actively monitor deliverability scores to keep everything clean.",
   },
   {
-    q: "Do I need any technical skills?",
-    a: "Zero. This is a fully done-for-you service. We handle strategy, infrastructure, copywriting, lead sourcing, and optimization. You just close the deals that come in.",
+    q: "Do I need any marketing experience to use this?",
+    a: "None. This is a completely done-for-you engagement. We own the strategy, infrastructure, prospecting, copy, and ongoing optimization. Your only job is responding to interested leads.",
   },
   {
-    q: "How fast will I see results?",
-    a: "Most clients start seeing qualified replies within the first 7-14 days of going live. Campaigns typically reach full optimization within 30 days.",
+    q: "How quickly will I see qualified replies?",
+    a: "Most clients start receiving interested responses in the first 7-14 days after launch. By day 30, campaigns are fully optimized and running at peak conversion rates.",
   },
   {
-    q: "What makes this different from hiring an in-house marketer?",
-    a: "We bring specialized cold email infrastructure, AI-driven personalization, and years of trade-specific outreach experience. You get a full outbound team for a fraction of the cost of one hire—with faster results.",
+    q: "Why choose this over hiring a marketing person?",
+    a: "You get an entire outbound operations team—strategist, copywriter, data engineer, and deliverability specialist—for less than the cost of a single part-time hire. Plus, we bring infrastructure and trade-specific playbooks that an in-house marketer would take months to build.",
   },
 ]
 
@@ -38,7 +38,7 @@ export default function FAQ() {
             FAQ
           </span>
           <h2 className="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)]">
-            Frequently Asked Questions
+            Common Questions
           </h2>
         </div>
 
@@ -46,10 +46,10 @@ export default function FAQ() {
           {faqs.map((f, i) => (
             <div
               key={i}
-              className={`rounded-2xl border bg-[#0f1225] overflow-hidden transition-all duration-300 ${
+              className={`rounded-2xl border bg-[#152036] overflow-hidden transition-all duration-300 ${
                 open === i
                   ? 'border-cyan-400/30 shadow-[0_0_20px_rgba(34,211,238,0.05)]'
-                  : 'border-white/10 hover:border-white/20'
+                  : 'border-[#263a5e]/50 hover:border-[#345080]'
               }`}
             >
               <button
@@ -60,10 +60,10 @@ export default function FAQ() {
                 <div className={`flex-shrink-0 w-8 h-8 rounded-full flex items-center justify-center transition-all duration-300 ${
                   open === i
                     ? 'bg-gradient-to-br from-cyan-400 to-blue-500 rotate-45'
-                    : 'bg-[#0b0c15] border border-white/10'
+                    : 'bg-[#0e1628] border border-[#263a5e]'
                 }`}>
                   <svg
-                    className={`w-4 h-4 transition-colors duration-300 ${open === i ? 'text-[#0b0c15]' : 'text-cyan-400'}`}
+                    className={`w-4 h-4 transition-colors duration-300 ${open === i ? 'text-[#0e1628]' : 'text-cyan-400'}`}
                     viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round"
                   >
                     <path d="M12 5v14M5 12h14"/>
@@ -76,7 +76,7 @@ export default function FAQ() {
                 }`}
               >
                 <div className="overflow-hidden">
-                  <p className="px-5 pb-5 text-gray-400 leading-relaxed">{f.a}</p>
+                  <p className="px-5 pb-5 text-[#a8b8cf] leading-relaxed">{f.a}</p>
                 </div>
               </div>
             </div>

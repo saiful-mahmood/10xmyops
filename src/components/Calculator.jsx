@@ -40,11 +40,11 @@ export default function Calculator() {
   }
   const result = calcResults()
 
-  const selectClass = "w-full px-4 py-3 rounded-xl bg-[#0b0c15] border border-white/10 text-white focus:outline-none focus:border-cyan-400/60 transition-colors appearance-none cursor-pointer text-sm"
+  const selectClass = "w-full px-4 py-3 rounded-xl bg-[#0e1628] border border-[#263a5e]/50 text-white focus:outline-none focus:border-cyan-400/60 transition-colors appearance-none cursor-pointer text-sm"
 
   return (
     <section className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0b0c15] via-[#0f1225] to-[#0b0c15]" />
+      <div className="absolute inset-0 bg-gradient-to-b from-[#0e1628] via-[#111d32] to-[#0e1628]" />
       <div className="relative max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 mb-4">
@@ -52,37 +52,37 @@ export default function Calculator() {
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
             </svg>
             <h2 className="text-2xl sm:text-3xl font-extrabold font-[family-name:var(--font-heading)]">
-              ROI Calculator
+              Revenue Impact Calculator
             </h2>
           </div>
-          <p className="text-gray-400">See the revenue impact of automated cold email outreach for your trade business.</p>
+          <p className="text-[#a8b8cf]">Model the revenue potential of automated outreach for your specific trade and deal size.</p>
         </div>
 
-        <div className="p-8 rounded-2xl border border-white/10 bg-[#0f1225]">
+        <div className="p-8 rounded-2xl border border-[#263a5e]/50 bg-[#152036]">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
             <div>
-              <label className="block text-sm font-medium text-gray-400 mb-2">Your Trade</label>
+              <label className="block text-sm font-medium text-[#a8b8cf] mb-2">Your Trade</label>
               <select value={trade} onChange={e => setTrade(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {trades.map(t => <option key={t} value={t}>{t}</option>)}
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-400 mb-2">Avg. Job Value</label>
+              <label className="block text-sm font-medium text-[#a8b8cf] mb-2">Avg. Job Value</label>
               <select value={jobVal} onChange={e => setJobVal(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {jobValues.map(v => <option key={v.label} value={v.label}>{v.label}</option>)}
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-400 mb-2">Timeframe</label>
+              <label className="block text-sm font-medium text-[#a8b8cf] mb-2">Timeframe</label>
               <select value={timeframe} onChange={e => setTimeframe(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {timeframes.map(t => <option key={t.label} value={t.label}>{t.label}</option>)}
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-gray-400 mb-2">Monthly Closes</label>
+              <label className="block text-sm font-medium text-[#a8b8cf] mb-2">Monthly Closes</label>
               <select value={closes} onChange={e => setCloses(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {monthlyCloses.map(c => <option key={c.label} value={c.label}>{c.label}</option>)}
@@ -91,14 +91,14 @@ export default function Calculator() {
           </div>
 
           <div className="grid sm:grid-cols-2 gap-4">
-            <div className="p-6 rounded-xl bg-[#0b0c15] border border-white/10 text-center">
-              <p className="text-sm text-gray-500 mb-2">Revenue Uplift</p>
+            <div className="p-6 rounded-xl bg-[#0e1628] border border-[#263a5e]/30 text-center">
+              <p className="text-sm text-[#7b8fad] mb-2">Revenue Uplift</p>
               <p className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
                 {result ? `$${result.revenue}` : '$—'}
               </p>
             </div>
-            <div className="p-6 rounded-xl bg-[#0b0c15] border border-white/10 text-center">
-              <p className="text-sm text-gray-500 mb-2">Your Return</p>
+            <div className="p-6 rounded-xl bg-[#0e1628] border border-[#263a5e]/30 text-center">
+              <p className="text-sm text-[#7b8fad] mb-2">Your Return</p>
               <p className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
                 {result ? result.roi : '—'}
               </p>

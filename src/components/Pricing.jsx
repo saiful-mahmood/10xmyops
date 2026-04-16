@@ -7,10 +7,10 @@ const plans = {
     period: '/month',
     fee: '+ one-time $75 onboarding fee',
     features: [
-      'Multi-campaign outreach (up to 3 active at once)',
-      'We find and target your ideal local clients',
-      'Done-for-you email deliverability & inbox management',
-      'Built-in CRM with automated follow-up sequences',
+      'Multi-campaign outreach (up to 3 live simultaneously)',
+      'Verified local lead sourcing matched to your trade',
+      'Managed email deliverability & inbox warm-up',
+      'Integrated CRM with automated follow-up cadences',
     ],
   },
   residential: {
@@ -19,10 +19,10 @@ const plans = {
     period: '/month',
     fee: '+ one-time $75 onboarding fee',
     features: [
-      'Multi-campaign outreach (up to 3 active at once)',
-      'We find and target your ideal local clients',
-      'Done-for-you email deliverability & inbox management',
-      'Built-in CRM with automated follow-up sequences',
+      'Multi-campaign outreach (up to 3 live simultaneously)',
+      'Verified local lead sourcing matched to your trade',
+      'Managed email deliverability & inbox warm-up',
+      'Integrated CRM with automated follow-up cadences',
     ],
   },
 }
@@ -41,7 +41,7 @@ export default function Pricing() {
             <h2 className="text-3xl md:text-4xl font-extrabold font-[family-name:var(--font-heading)] mb-8">
               Book a Call To Learn More
             </h2>
-            <div className="rounded-2xl border border-white/10 bg-white p-6 text-gray-900">
+            <div className="rounded-2xl border border-[#263a5e]/50 bg-white p-6 text-gray-900">
               <div className="flex items-center gap-3 mb-4">
                 <div className="w-10 h-10 rounded-lg bg-gradient-to-br from-indigo-500 to-purple-500 flex items-center justify-center">
                   <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
@@ -60,7 +60,7 @@ export default function Pricing() {
                 Web conferencing details provided upon confirmation.
               </div>
               <p className="text-gray-600 text-sm mb-6">
-                See how AI can consistently deliver qualified commercial and residential leads each month.
+                See how our outreach engine consistently delivers qualified commercial and residential leads, month after month.
               </p>
               <a 
                 href="#cta" 
@@ -77,12 +77,11 @@ export default function Pricing() {
               Simple, Transparent Pricing
             </h2>
 
-            {/* Tab toggle */}
-            <div className="flex mb-6 bg-[#1a1c2e] rounded-lg p-1 max-w-xs border border-white/5">
+            <div className="flex mb-6 bg-[#152036] rounded-lg p-1 max-w-xs border border-[#263a5e]/50">
               <button
                 onClick={() => setTab('commercial')}
                 className={`flex-1 px-4 py-2.5 rounded-md text-sm font-semibold transition-all ${
-                  tab === 'commercial' ? 'bg-[#0f1225] text-white shadow' : 'text-gray-400 hover:text-white'
+                  tab === 'commercial' ? 'bg-[#0e1628] text-white shadow' : 'text-[#7b8fad] hover:text-white'
                 }`}
               >
                 Commercial
@@ -90,25 +89,24 @@ export default function Pricing() {
               <button
                 onClick={() => setTab('residential')}
                 className={`flex-1 px-4 py-2.5 rounded-md text-sm font-semibold transition-all ${
-                  tab === 'residential' ? 'bg-[#0f1225] text-white shadow' : 'text-gray-400 hover:text-white'
+                  tab === 'residential' ? 'bg-[#0e1628] text-white shadow' : 'text-[#7b8fad] hover:text-white'
                 }`}
               >
                 Residential
               </button>
             </div>
 
-            {/* Plan card */}
-            <div className="rounded-2xl border border-white/10 bg-[#0f1225] p-8">
-              <p className="text-sm text-gray-400 mb-1">{plan.name}</p>
+            <div className="rounded-2xl border border-[#263a5e]/50 bg-[#152036] p-8">
+              <p className="text-sm text-[#a8b8cf] mb-1">{plan.name}</p>
               <div className="flex items-baseline gap-1 mb-2">
                 <span className="text-5xl font-extrabold text-white">{plan.price}</span>
-                <span className="text-gray-400 text-lg">{plan.period}</span>
+                <span className="text-[#7b8fad] text-lg">{plan.period}</span>
               </div>
               <p className="text-sm text-cyan-400 mb-8">{plan.fee}</p>
 
               <ul className="space-y-4">
                 {plan.features.map((f, i) => (
-                  <li key={i} className="flex items-start gap-3 text-gray-300">
+                  <li key={i} className="flex items-start gap-3 text-[#a8b8cf]">
                     <svg className="mt-0.5 flex-shrink-0 text-cyan-400" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
                       <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
                       <polyline points="22 4 12 14.01 9 11.01"/>

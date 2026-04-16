@@ -14,24 +14,23 @@ export default function CTA() {
 
       <div className="relative max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid md:grid-cols-2 gap-8 items-start">
-          {/* Left */}
           <div>
             <span className="inline-block px-4 py-1.5 rounded-full border border-cyan-400/30 text-cyan-400 text-xs font-semibold tracking-widest uppercase mb-6">
-              Get Started
+              Let's Talk
             </span>
             <h2 className="text-3xl sm:text-4xl font-extrabold font-[family-name:var(--font-heading)] mb-4">
               Book Your Free{' '}
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Strategy Call</span>
+              <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">Strategy Session</span>
             </h2>
-            <p className="text-gray-400 mb-8 leading-relaxed">
-              See exactly how automated cold email outreach can fill your pipeline with qualified leads—without lifting a finger.
+            <p className="text-[#a8b8cf] mb-8 leading-relaxed">
+              Find out exactly how automated cold email can fill your pipeline with qualified prospects—without adding headcount.
             </p>
 
             <div className="space-y-4">
               {[
-                'Done-for-you lead sourcing & outreach',
-                'Dedicated sending infrastructure',
-                'AI-powered personalization at scale',
+                'Fully managed prospect sourcing & outreach',
+                'Dedicated sending infrastructure included',
+                'AI-powered message personalization at scale',
               ].map((item, i) => (
                 <div key={i} className="flex items-start gap-3">
                   <div className="w-6 h-6 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-400/30 flex items-center justify-center flex-shrink-0 mt-0.5">
@@ -43,15 +42,14 @@ export default function CTA() {
             </div>
           </div>
 
-          {/* Right: Form */}
-          <div className="p-8 rounded-2xl border border-white/10 bg-[#0f1225]">
+          <div className="p-8 rounded-2xl border border-[#263a5e]/50 bg-[#152036]">
             {submitted ? (
               <div className="text-center py-8 animate-fade-in-up">
                 <div className="w-16 h-16 rounded-full bg-gradient-to-br from-cyan-500/20 to-blue-500/20 border border-cyan-400/30 flex items-center justify-center mx-auto mb-4">
                   <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round"><path d="M20 6L9 17l-5-5"/></svg>
                 </div>
                 <h3 className="text-xl font-bold font-[family-name:var(--font-heading)] mb-2">You're on the list!</h3>
-                <p className="text-gray-400">We'll be in touch within 24 hours to schedule your free strategy call.</p>
+                <p className="text-[#a8b8cf]">We'll reach out within 24 hours to set up your free strategy session.</p>
               </div>
             ) : (
               <form onSubmit={handleSubmit} className="space-y-4">
@@ -59,23 +57,23 @@ export default function CTA() {
                   type="text"
                   placeholder="Your name"
                   required
-                  className="w-full px-4 py-3 rounded-xl bg-[#0b0c15] border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400/60 transition-colors"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0e1628] border border-[#263a5e]/50 text-white placeholder-[#7b8fad] focus:outline-none focus:border-cyan-400/60 transition-colors"
                 />
                 <input
                   type="email"
                   placeholder="Work email"
                   required
-                  className="w-full px-4 py-3 rounded-xl bg-[#0b0c15] border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400/60 transition-colors"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0e1628] border border-[#263a5e]/50 text-white placeholder-[#7b8fad] focus:outline-none focus:border-cyan-400/60 transition-colors"
                 />
                 <input
                   type="text"
                   placeholder="Company name"
-                  className="w-full px-4 py-3 rounded-xl bg-[#0b0c15] border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400/60 transition-colors"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0e1628] border border-[#263a5e]/50 text-white placeholder-[#7b8fad] focus:outline-none focus:border-cyan-400/60 transition-colors"
                 />
                 <textarea
                   placeholder="What trade are you in? (HVAC, Roofing, Plumbing, etc.)"
                   rows={3}
-                  className="w-full px-4 py-3 rounded-xl bg-[#0b0c15] border border-white/10 text-white placeholder-gray-500 focus:outline-none focus:border-cyan-400/60 transition-colors resize-none"
+                  className="w-full px-4 py-3 rounded-xl bg-[#0e1628] border border-[#263a5e]/50 text-white placeholder-[#7b8fad] focus:outline-none focus:border-cyan-400/60 transition-colors resize-none"
                 />
                 <button
                   type="submit"
@@ -83,7 +81,7 @@ export default function CTA() {
                 >
                   Get Started →
                 </button>
-                <p className="text-center text-xs text-gray-500">No commitment. No credit card. Just a conversation.</p>
+                <p className="text-center text-xs text-[#7b8fad]">No commitment. No credit card. Just a conversation.</p>
               </form>
             )}
           </div>

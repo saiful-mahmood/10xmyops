@@ -1,33 +1,33 @@
 const sectors = [
   {
     title: 'Banking & Finance',
-    items: ['Fraud Detection Systems', 'Credit Risk Underwriting Agents', 'Regulatory Compliance Automation'],
+    items: ['Intelligent Fraud Detection Pipelines', 'AI-Driven Credit Risk Assessment', 'Automated Regulatory Compliance'],
   },
   {
     title: 'Healthcare',
-    items: ['Claims Processing Automation', 'Multi-Channel Support Platforms', 'Voice AI Agents'],
+    items: ['Claims Processing Automation', 'Omnichannel Patient Support Platforms', 'Conversational Voice AI Agents'],
   },
   {
     title: 'Oil & Gas',
-    items: ['Regulatory Compliance Monitoring', 'Security Incident Response', 'Intelligent Document Processing'],
+    items: ['Real-Time Compliance Monitoring', 'Automated Incident Response Workflows', 'Intelligent Document Extraction'],
   },
   {
     title: 'Airlines',
-    items: ['Intelligent Booking Assistants', 'Multilingual Customer Service', 'Real-Time Flight Ops Support'],
+    items: ['Smart Booking & Rebooking Agents', 'Multilingual Passenger Support AI', 'Live Flight Operations Dashboards'],
   },
   {
     title: 'Trades',
-    items: ['AI-Powered Lead Generation', 'Automated Scheduling & Dispatch', 'CRM & Email Integration'],
+    items: ['Outbound Lead Generation Engines', 'Automated Scheduling & Smart Dispatch', 'CRM & Email Workflow Integration'],
   },
   {
     title: 'Public Sector',
-    items: ['Intelligent Dispatch Systems', 'Citizen Service Automation', 'Inter-Agency Data Integration'],
+    items: ['AI-Powered Dispatch & Routing', 'Citizen Service Request Automation', 'Cross-Agency Data Interoperability'],
   },
 ]
 
 export default function SectorsAI() {
   return (
-    <section className="py-24 relative bg-[#0b0c15]">
+    <section className="py-24 relative bg-[#0e1628]">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <h2 className="text-3xl md:text-4xl font-extrabold mb-12 text-center text-white">
           Core Services by Sector
@@ -35,11 +35,11 @@ export default function SectorsAI() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {sectors.map((s, i) => (
-            <div key={i} className="p-8 rounded-2xl border border-white/10 bg-[#0f1225] hover:bg-[#151832] transition-colors">
+            <div key={i} className="p-8 rounded-2xl border border-[#263a5e]/50 bg-[#152036] hover:bg-[#1a2844] transition-colors">
               <h3 className="text-xl font-bold mb-4 text-indigo-300">{s.title}</h3>
               <ul className="space-y-2">
                 {s.items.map((item, j) => (
-                  <li key={j} className="flex items-start gap-2 text-gray-400 text-sm">
+                  <li key={j} className="flex items-start gap-2 text-[#a8b8cf] text-sm">
                     <span className="text-indigo-400 mt-0.5">•</span>
                     {item}
                   </li>
