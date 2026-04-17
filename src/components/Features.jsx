@@ -30,19 +30,19 @@ const features = [
 
 export default function Features() {
   return (
-    <section className="py-24 md:py-32 relative">
+    <section className="py-24 md:py-32 relative bg-white">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="grid md:grid-cols-3 gap-8">
           {features.map((f, i) => (
             <div
               key={i}
-              className="group p-8 rounded-2xl border border-[#2d4470] bg-[#152036] hover:border-cyan-400/40 transition-all duration-300 hover:-translate-y-1"
+              className="group p-8 rounded-2xl border border-gray-100 bg-white shadow-sm hover:shadow-xl hover:border-blue-100 transition-all duration-300 hover:-translate-y-1"
             >
-              <div className="w-14 h-14 rounded-2xl bg-gradient-to-br from-cyan-500/15 to-blue-500/15 border border-[#2d4470] flex items-center justify-center text-cyan-400 mb-5 group-hover:border-cyan-400/40 group-hover:shadow-[0_0_20px_rgba(34,211,238,0.15)] transition-all duration-300">
+              <div className="w-14 h-14 rounded-2xl bg-blue-50 border border-blue-100 flex items-center justify-center text-blue-600 mb-5 group-hover:bg-blue-600 group-hover:text-white transition-all duration-300">
                 {f.icon}
               </div>
-              <h3 className="text-xl font-bold font-[family-name:var(--font-heading)] mb-3 text-white">{f.title}</h3>
-              <p className="text-[#cbd5e1] leading-relaxed">{f.desc}</p>
+              <h3 className="text-xl font-bold font-[family-name:var(--font-heading)] mb-3 text-slate-900">{f.title}</h3>
+              <p className="text-slate-600 leading-relaxed">{f.desc}</p>
             </div>
           ))}
         </div>

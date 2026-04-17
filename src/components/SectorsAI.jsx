@@ -27,20 +27,20 @@ const sectors = [
 
 export default function SectorsAI() {
   return (
-    <section className="py-24 relative bg-[#0e1628]">
+    <section className="py-24 relative bg-white">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <h2 className="text-3xl md:text-4xl font-extrabold mb-12 text-center text-white">
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-12 text-center text-slate-900">
           Core Services by Sector
         </h2>
         
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
           {sectors.map((s, i) => (
-            <div key={i} className="p-8 rounded-2xl border border-[#2d4470] bg-[#152036] hover:bg-[#1a2844] transition-colors">
-              <h3 className="text-xl font-bold mb-4 text-indigo-300">{s.title}</h3>
-              <ul className="space-y-2">
+            <div key={i} className="p-8 rounded-2xl border border-gray-100 bg-slate-50 hover:bg-white hover:shadow-xl hover:border-indigo-100 transition-all duration-300">
+              <h3 className="text-xl font-bold mb-4 text-indigo-700">{s.title}</h3>
+              <ul className="space-y-3">
                 {s.items.map((item, j) => (
-                  <li key={j} className="flex items-start gap-2 text-[#cbd5e1] text-sm">
-                    <span className="text-indigo-400 mt-0.5">•</span>
+                  <li key={j} className="flex items-start gap-2 text-slate-600 text-sm font-medium">
+                    <span className="text-indigo-500 mt-1 flex-shrink-0">•</span>
                     {item}
                   </li>
                 ))}

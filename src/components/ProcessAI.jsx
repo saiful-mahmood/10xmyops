@@ -23,22 +23,22 @@ const steps = [
 
 export default function ProcessAI() {
   return (
-    <section className="py-24 relative">
+    <section className="py-24 relative bg-slate-50">
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
-        <h2 className="text-3xl md:text-4xl font-extrabold mb-16 text-center text-white">
+        <h2 className="text-3xl md:text-4xl font-extrabold mb-16 text-center text-slate-900">
           Our Process
         </h2>
 
         <div className="grid md:grid-cols-4 gap-8 md:gap-4 relative">
-          <div className="hidden md:block absolute top-[28px] left-[10%] right-[10%] h-px border-t border-[#2d4470]" />
+          <div className="hidden md:block absolute top-[28px] left-[10%] right-[10%] h-px border-t border-gray-300" />
           
           {steps.map((s, i) => (
             <div key={i} className="relative z-10 flex flex-col items-center md:items-start text-center md:text-left">
-              <div className="w-14 h-14 rounded-full bg-indigo-600 border-4 border-[#0e1628] text-white flex items-center justify-center font-bold text-lg mb-6">
+              <div className="w-14 h-14 rounded-full bg-indigo-600 border-4 border-slate-50 text-white flex items-center justify-center font-bold text-lg mb-6 shadow-md">
                 {s.num}
               </div>
-              <h3 className="text-xl font-bold text-white mb-3">{s.title}</h3>
-              <p className="text-[#cbd5e1] leading-relaxed text-sm md:text-base pr-0 md:pr-4">{s.desc}</p>
+              <h3 className="text-xl font-bold text-slate-900 mb-3">{s.title}</h3>
+              <p className="text-slate-600 leading-relaxed text-sm md:text-base pr-0 md:pr-4 font-medium">{s.desc}</p>
             </div>
           ))}
         </div>

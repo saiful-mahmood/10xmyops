@@ -40,49 +40,48 @@ export default function Calculator() {
   }
   const result = calcResults()
 
-  const selectClass = "w-full px-4 py-3 rounded-xl bg-[#0e1628] border border-[#2d4470] text-white focus:outline-none focus:border-cyan-400/60 transition-colors appearance-none cursor-pointer text-sm"
+  const selectClass = "w-full px-4 py-3 rounded-xl bg-white border border-gray-200 text-slate-900 focus:outline-none focus:ring-2 focus:ring-blue-500/20 focus:border-blue-500 transition-all appearance-none cursor-pointer text-sm"
 
   return (
-    <section className="py-24 relative overflow-hidden">
-      <div className="absolute inset-0 bg-gradient-to-b from-[#0e1628] via-[#111d32] to-[#0e1628]" />
+    <section className="py-24 relative overflow-hidden bg-white">
       <div className="relative max-w-4xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="text-center mb-12">
           <div className="inline-flex items-center gap-2 mb-4">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#22d3ee" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="#2563eb" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
               <path d="M22 12h-4l-3 9L9 3l-3 9H2"/>
             </svg>
-            <h2 className="text-2xl sm:text-3xl font-extrabold font-[family-name:var(--font-heading)] text-white">
+            <h2 className="text-2xl sm:text-3xl font-extrabold font-[family-name:var(--font-heading)] text-slate-900">
               Revenue Impact Calculator
             </h2>
           </div>
-          <p className="text-[#cbd5e1]">Model the revenue potential of automated outreach for your specific trade and deal size.</p>
+          <p className="text-slate-600">Model the revenue potential of automated outreach for your specific trade and deal size.</p>
         </div>
 
-        <div className="p-8 rounded-2xl border border-[#2d4470] bg-[#152036]">
+        <div className="p-8 rounded-2xl border border-gray-200 bg-slate-50 shadow-sm">
           <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4 mb-8">
             <div>
-              <label className="block text-sm font-medium text-[#cbd5e1] mb-2">Your Trade</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Your Trade</label>
               <select value={trade} onChange={e => setTrade(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {trades.map(t => <option key={t} value={t}>{t}</option>)}
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-[#cbd5e1] mb-2">Avg. Job Value</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Avg. Job Value</label>
               <select value={jobVal} onChange={e => setJobVal(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {jobValues.map(v => <option key={v.label} value={v.label}>{v.label}</option>)}
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-[#cbd5e1] mb-2">Timeframe</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Timeframe</label>
               <select value={timeframe} onChange={e => setTimeframe(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {timeframes.map(t => <option key={t.label} value={t.label}>{t.label}</option>)}
               </select>
             </div>
             <div>
-              <label className="block text-sm font-medium text-[#cbd5e1] mb-2">Monthly Closes</label>
+              <label className="block text-sm font-medium text-slate-700 mb-2">Monthly Closes</label>
               <select value={closes} onChange={e => setCloses(e.target.value)} className={selectClass}>
                 <option value="">Select</option>
                 {monthlyCloses.map(c => <option key={c.label} value={c.label}>{c.label}</option>)}
@@ -91,15 +90,15 @@ export default function Calculator() {
           </div>
 
           <div className="grid sm:grid-cols-2 gap-4">
-            <div className="p-6 rounded-xl bg-[#0e1628] border border-[#2d4470]/50 text-center">
-              <p className="text-sm text-[#94a3b8] mb-2">Revenue Uplift</p>
-              <p className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+            <div className="p-6 rounded-xl bg-white border border-gray-200 shadow-sm text-center">
+              <p className="text-sm text-slate-500 mb-2">Revenue Uplift</p>
+              <p className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">
                 {result ? `$${result.revenue}` : '$—'}
               </p>
             </div>
-            <div className="p-6 rounded-xl bg-[#0e1628] border border-[#2d4470]/50 text-center">
-              <p className="text-sm text-[#94a3b8] mb-2">Your Return</p>
-              <p className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-cyan-300">
+            <div className="p-6 rounded-xl bg-white border border-gray-200 shadow-sm text-center">
+              <p className="text-sm text-slate-500 mb-2">Your Return</p>
+              <p className="text-3xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">
                 {result ? result.roi : '—'}
               </p>
             </div>

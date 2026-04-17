@@ -19,7 +19,7 @@ export default function App() {
   const [activeTab, setActiveTab] = useState('gtm')
 
   return (
-    <div className="min-h-screen bg-[#0e1628] text-[#f1f5f9]">
+    <div className="min-h-screen bg-[#f8fafc] text-[#0f172a]">
       <Header activeTab={activeTab} setActiveTab={setActiveTab} />
       
       <main>
@@ -36,7 +36,7 @@ export default function App() {
             <CTA />
           </>
         ) : (
-          <div className="animate-fade-in">
+          <div className="animate-fade-in text-[#0f172a]">
             <HeroAI />
             <SectorsAI />
             <ProcessAI />
