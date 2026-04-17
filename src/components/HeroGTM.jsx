@@ -22,7 +22,7 @@ export default function HeroGTM() {
             </div>
 
             <h1 className="text-4xl md:text-5xl lg:text-5xl font-extrabold font-[family-name:var(--font-heading)] leading-[1.15] mb-6 text-slate-900">
-              Automated Outreach for{' '}
+              Lead Gen Automation for{' '}
               <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">
                 Trade Service Businesses
               </span>

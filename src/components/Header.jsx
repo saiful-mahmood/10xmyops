@@ -38,7 +38,7 @@ export default function Header({ activeTab, setActiveTab }) {
                   : 'text-slate-500 hover:text-slate-800'
               }`}
             >
-              GTM Service
+              Email Marketing
             </button>
             <button
               onClick={() => setActiveTab('ai')}
