@@ -7,7 +7,7 @@ export default function ProductGTM() {
           <span className="inline-block px-3 py-1 rounded bg-blue-50 border border-blue-100 text-blue-700 text-xs font-bold tracking-widest uppercase mb-6">
             Intelligent Outreach
           </span>
-          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-slate-900">Your Lead Generation Command Center, <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">OpsFlow</span></h2>
+          <h2 className="text-3xl md:text-4xl font-extrabold mb-6 text-slate-900">Your Lead Generation Command Center, <span className="text-transparent bg-clip-text bg-gradient-to-r from-blue-700 to-cyan-600">My Leads</span></h2>
           <p className="text-slate-600 text-lg leading-relaxed">
             A centralized platform to monitor campaigns, manage replies, and track your trade business growth in real-time.
           </p>
@@ -23,7 +23,7 @@ export default function ProductGTM() {
                 <div className="w-8 h-8 rounded bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
                   <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
                 </div>
-                <span className="font-bold text-slate-900">OpsFlow</span>
+                <span className="font-bold text-slate-900">My Leads</span>
               </div>
             </div>
 
