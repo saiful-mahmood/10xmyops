@@ -34,7 +34,7 @@ export default function Calculator() {
     const tf = timeframes.find(t => t.label === timeframe)?.value || 0
     const cl = monthlyCloses.find(m => m.label === closes)?.value || 0
     const revenue = jv * cl * tf
-    const cost = 500 * tf
+    const cost = 400 * tf
     const roi = Math.round(revenue / cost)
     return { revenue: revenue.toLocaleString(), roi: `${roi}x` }
   }

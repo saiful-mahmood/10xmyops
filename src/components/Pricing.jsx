@@ -3,7 +3,7 @@ import { useState } from 'react'
 const plans = {
   commercial: {
     name: 'Commercial Plan',
-    price: '$500',
+    price: '$400',
     period: '/month',
     fee: '+ one-time $75 onboarding fee',
     features: [
@@ -15,7 +15,7 @@ const plans = {
   },
   residential: {
     name: 'Residential Plan',
-    price: '$500',
+    price: '$400',
     period: '/month',
     fee: '+ one-time $75 onboarding fee',
     features: [
