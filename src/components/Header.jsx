@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react'
+import logo from '../assets/logo.png'
 
 export default function Header({ activeTab, setActiveTab }) {
   const [scrolled, setScrolled] = useState(false)
@@ -19,10 +20,8 @@ export default function Header({ activeTab, setActiveTab }) {
       <div className="max-w-7xl mx-auto px-6 sm:px-8 lg:px-12">
         <div className="flex items-center justify-between h-16 md:h-20">
           <a href="#" className="flex items-center gap-2.5 group shrink-0">
-            <div className="w-9 h-9 rounded-lg bg-gradient-to-br from-cyan-600 to-blue-600 flex items-center justify-center shadow-lg">
-              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2.5" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/>
-              </svg>
+            <div className="w-10 h-10 rounded-lg overflow-hidden shadow-lg border border-gray-100">
+              <img src={logo} alt="10xMyOps Logo" className="w-full h-full object-cover" />
             </div>
             <span className="text-xl font-extrabold font-[family-name:var(--font-heading)] hidden sm:block text-slate-900">
               10xMyOps

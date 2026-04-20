@@ -1,3 +1,5 @@
+import logo from '../assets/logo.png'
+
 export default function ProductGTM() {
   return (
     <section className="py-24 relative overflow-hidden bg-slate-50">
@@ -20,8 +22,8 @@ export default function ProductGTM() {
           <div className="w-16 md:w-64 bg-slate-50 border-r border-gray-200 flex flex-col pt-6">
             <div className="px-4 mb-8 hidden md:block">
               <div className="flex items-center gap-2">
-                <div className="w-8 h-8 rounded bg-gradient-to-br from-blue-600 to-cyan-600 flex items-center justify-center">
-                  <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="3"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+                <div className="w-8 h-8 rounded overflow-hidden shadow-sm border border-gray-100">
+                  <img src={logo} alt="My Leads Logo" className="w-full h-full object-cover" />
                 </div>
                 <span className="font-bold text-slate-900">My Leads</span>
               </div>
