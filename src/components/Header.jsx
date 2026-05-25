@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import logo from '../assets/logo.png'
 
-export default function Header({ activeTab, setActiveTab }) {
+export default function Header() {
   const [scrolled, setScrolled] = useState(false)
 
   useEffect(() => {
@@ -28,32 +28,18 @@ export default function Header({ activeTab, setActiveTab }) {
             </span>
           </a>
 
-          <div className="flex items-center p-1 rounded-full bg-gray-100 border border-gray-200">
-            <button
-              onClick={() => setActiveTab('gtm')}
-              className={`px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 ${
-                activeTab === 'gtm' 
-                  ? 'bg-white text-blue-700 shadow-sm' 
-                  : 'text-slate-500 hover:text-slate-800'
-              }`}
+          <div className="flex items-center gap-4 shrink-0">
+            <a 
+              href="tel:5086239060" 
+              className="hidden lg:flex items-center gap-2 text-slate-700 hover:text-blue-600 font-semibold text-sm transition-colors"
             >
-              Email Marketing
-            </button>
-            <button
-              onClick={() => setActiveTab('ai')}
-              className={`px-4 md:px-6 py-2 rounded-full text-xs md:text-sm font-semibold transition-all duration-300 ${
-                activeTab === 'ai' 
-                  ? 'bg-white text-blue-700 shadow-sm' 
-                  : 'text-slate-500 hover:text-slate-800'
-              }`}
-            >
-              AI Consulting
-            </button>
-          </div>
-
-          <div className="shrink-0">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              508-623-9060
+            </a>
             <a
-              href="#cta"
+              href="mailto:nus@10xmyops.com"
               className="px-5 py-2.5 rounded-full bg-gradient-to-r from-blue-600 to-cyan-600 text-white font-bold text-sm hover:opacity-90 transition-all shadow-md hidden sm:inline-block"
             >
               Get Started
