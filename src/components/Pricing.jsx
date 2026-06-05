@@ -38,7 +38,7 @@ export default function Pricing() {
       pill: 'OPS EFFICIENCY',
       title: 'AI Lead Generation',
       desc: 'Automate Lead Generation Intake & Followup.',
-      price: '$15K',
+      price: '$25K',
       period: 'or more per project',
       timeline: 'ROI is measured in hours saved and improved accuracy',
       features: [
