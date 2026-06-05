@@ -2,11 +2,11 @@ export default function Pricing() {
   const plans = [
     {
       pill: 'LOCAL SEO',
-      title: 'Local Marketing',
+      title: 'Email Marketing',
       desc: 'Dominate your local service area. We combine website optimization, content creation, & link building.',
       price: '$400/m',
       period: 'starting at',
-      timeline: 'Results take 1 to 3 months to start compounding',
+      timeline: 'Results begin in month 1',
       features: [
         'Keyword Targeting & Content Gap Analysis',
         'High-performing on-page & off-page SEO strategy',
@@ -19,11 +19,11 @@ export default function Pricing() {
     },
     {
       pill: 'REVENUE GENERATION',
-      title: 'SEO + Content + Paid Media',
+      title: 'Google + ChatGPT Top Ranking + Content + Social Media Ads',
       desc: 'The ultimate revenue engine. We combine organic and paid traffic to scale your business aggressively.',
-      price: '$5K',
-      period: 'or more project scoped',
-      timeline: 'Typical setup timeline is 3-6 months',
+      price: '$5K/m',
+      period: '',
+      timeline: '',
       features: [
         'Advanced CRO & A/B testing',
         'Comprehensive SEO Strategy (Local + National)',
@@ -36,8 +36,8 @@ export default function Pricing() {
     },
     {
       pill: 'OPS EFFICIENCY',
-      title: 'AI Workflows',
-      desc: 'Automate your daily operations. We build custom AI and automation tools to save you time and money.',
+      title: 'AI Lead Generation',
+      desc: 'Automate Lead Generation Intake & Followup.',
       price: '$15K',
       period: 'or more per project',
       timeline: 'ROI is measured in hours saved and improved accuracy',
